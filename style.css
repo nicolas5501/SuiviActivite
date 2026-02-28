@@ -1,0 +1,67 @@
+/* commentaire */
+
+body {
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+.TableauTitrePage {
+    display: grid;
+    grid-template-rows: max-content;   
+    grid-template-columns: auto max-content;
+    align-items: center;
+}
+
+.TexteCentré {
+    text-align: center;
+    justify-content: center;
+}
+
+.TexteDroite {
+    text-align: right;
+    justify-content: right;
+}
+
+.TitreSection {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 5% 95%;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+
+.Lien{
+    color:aqua;
+    text-align: right;
+}
+
+.BordureRouge {
+    padding: 5px;
+    border-left: 5px red solid;
+}
+
+.BordureVerte {
+    padding: 5px;
+    border-left: 5px green solid;
+}
+
+.TexteRouge {
+    color: red;
+}
+
+.TexteVert {
+    color: green;
+}
+
+.CommunTitre {
+    font-size: 2em;
+}
+
+h1 + p {
+    border-left: 5px red solid;
+}
+
+h2 + p {
+    border-left: 5px green solid;
+}
