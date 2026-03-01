@@ -1,4 +1,10 @@
-/* commentaire */
+/*
+  style.css
+  Feuille de style pour l'application SuiviActivite
+  Contient les règles de mise en forme principales,
+  notamment pour la barre de navigation, les titres
+  et les bordures des sections.
+*/
 
 body {
     background-color: black; /* Le fond de la page sera noir */
