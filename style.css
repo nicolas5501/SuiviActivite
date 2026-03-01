@@ -40,7 +40,9 @@ nav .TableauTitrePage > div {
 nav .TableauTitrePage > div:first-child {
     line-height: 0.8;
 }
-
+nav .TableauTitrePage > div:last-child {
+    line-height: auto;
+}
 .TexteCentré {
     text-align: center;
     justify-content: center;
