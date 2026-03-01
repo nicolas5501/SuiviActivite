@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
     inputDate.addEventListener('change', function() {
         const selectedDate = new Date(this.value);
         const weekNum = getWeekNumber(selectedDate);
-        weekNumberSpan.textContent = `Semaine ${weekNum}`;
+        weekNumberSpan.textContent = `Semaine : ${weekNum}`;
     });
 });
