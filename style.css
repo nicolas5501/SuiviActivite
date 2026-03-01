@@ -29,6 +29,19 @@ nav input[type="date"] {
     width: auto;
 }
 
+/* border around nav container */
+nav {
+    border: 1px solid white;
+    padding: 4px 0;
+}
+
+/* border around each field inside nav */
+nav .TableauTitrePage > div {
+    margin: 0;
+    padding: 2px 4px;
+    border: 1px dashed aqua;
+}
+
 .TexteCentré {
     text-align: center;
     justify-content: center;
