@@ -18,21 +18,21 @@ body {
     align-items: center;
 }
 
-/* navigation bar compact vertical spacing and border */
+/* espacement vertical réduit et bordure de la barre de navigation */
 nav {
     border: 1px solid white;
-    padding: 5px 0;
-    line-height: 1.2;
+    padding: 5px 0; /* réduire le remplissage vertical */
+    line-height: 0.75; /* réduire l’espacement vertical entre les lignes */
 }
 
-/* larger date input field */
+/* champ de date agrandi */
 nav input[type="date"] {
     font-size: 1.2em;
     padding: 4px;
     width: auto;
 }
 
-/* border around each field inside nav */
+/* bordure autour de chaque zone dans le nav */
 nav .TableauTitrePage > div {
     margin: 0;
     padding: 2px 4px;
