@@ -38,7 +38,7 @@ nav .TableauTitrePage > div {
 
 /* réduire l'espacement vertical pour la section semaine/date */
 nav .TableauTitrePage > div:first-child {
-    line-height: 0.8;
+    line-height: 0.5;
 }
 nav .TableauTitrePage > div:last-child {
     line-height: auto;
