@@ -3,72 +3,61 @@
     <head>
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet">
-        <title>Ativités hebdomadères GMET</title>
+        <title>Activités hebdomadères GMET</title>
         <script src="code.js"></script>
     </head>
 
-    <header>
-    </header>
+    <body>
+        <header>
+        </header>
 
-    <nav>
-        <div class="TableauTitrePage"> 
-            <div>
-                    <label for="Start"> Date :</label>
-                    <input type="date" id="Start" name="DateDuJour" value="inputDate.value" min="2026-01-01" max="2033-12-31"> 
-            </div>    
-            <div> <h1 class="TexteCentré"> Activités hebdomadères GMET </h1></div>
-            <div>
-                <a class="Lien TexteDroite" href="Connexion.html"> Connexion</a>
-                <br>
-                <a class="Lien TexteDroite" href="Paramètres.html"> Paramètres</a>
+        <nav>
+            <div class="TableauTitrePage"> 
+                <div>
+                        <label for="Start"> Date :</label>
+                        <input type="date" id="Start" name="DateDuJour" min="2026-01-01" max="2033-12-31"> 
+                </div>    
+                <div> <h1 class="TexteCentré"> Activités hebdomadères GMET </h1></div>
+                <div>
+                    <a class="Lien TexteDroite" href="Paramètres.html"> Paramètres</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <main>
-        <body>
+        <main>
             <!-- Corps de la page --> 
-            <p>
+            <section class="BordureRouge">
+                <header class="TitreSection">
+                        <div> <img src="Images/AgendaRéduit.png" alt="Icone agenda" /> </div>
+                        <div> <h1 class="CommunTitre TexteRouge">  Activité du jour</h1> </div>
+                </header>
+
                 <section>
+                    Texte 1 <br>
+                    <!-- Niveau d'importance du texte auquel on peut changer le style par le CSS
+                    <strong>Texte en gras</strong>
+                    <mark>Texte surligné</mark>
+                    <em>Texte italitque</em> -->
+                    <ul>
+                        <li>Liste à puce</li>
+                    </ul>
+                    <ol>
+                        <li>Liste numéroté</li>
+                    </ol>
                 </section>
-            </p>
-            <p>
-                <section class="BordureRouge">
+            </section>
+
+            <section class="BordureVerte">
+                <header class="TitreSection">
+                    <div> <img src="Images/Semaine.png" alt="Icone semaine" /></div>
+                    <div> <h1 class="CommunTitre TexteVert">  Activité de la semaine</h1> </div>
+                </header>
                 
-                    <header class="TitreSection">
-                            <div> <img src="Images/AgendaRéduit.png" alt="Icone agenda" /> </div>
-                            <div> <h1 class="CommunTitre TexteRouge">  Activité du jour</h1> </div>
-                    </header>
-
-                    <section>
-                        Texte 1 <br>
-                        <!-- Niveau d'importance du texte auquel on peut changer le style par le CSS
-                        <strong>Texte en gras</strong>
-                        <mark>Texte surligné</mark>
-                        <em>Texte italitque</em> -->
-                        <ul>
-                            <li>Liste à puce</li>
-                        </ul>
-                        <ol>
-                            <li>Liste numéroté</li>
-                        </ol>
-                    </section>
+                <section>
+                    Texte 1 <br>
+                    Texte 2
                 </section>
-            <p>
-
-            <p>
-                <section class="BordureVerte">
-                    <header class="TitreSection">
-                        <div> <img src="Images/Semaine.png" alt="Icone semaine" /></div>
-                        <div> <h1 class="CommunTitre TexteVert">  Activité de la semaine</h1> </div>
-                    </header>
-                    
-                    <section>
-                        Texte 1 <br>
-                        Texte 2
-                    </section>
-                </section>
-            </p>
-        </body>
-    </main>
+            </section>
+        </main>
+    </body>
 </html>
