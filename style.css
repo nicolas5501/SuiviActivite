@@ -20,7 +20,7 @@ body {
 nav {
     border: 1px solid white;
     padding: 5px 0; /* réduire le remplissage vertical */
-    line-height: 0.5; /* réduire l’espacement vertical entre les lignes */
+    /*line-height: 0.5; /* réduire l’espacement vertical entre les lignes */
 }
 
 /* champ de date agrandi */
