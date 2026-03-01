@@ -20,7 +20,6 @@ body {
 nav {
     border: 1px solid white;
     padding: 5px 0; /* réduire le remplissage vertical */
-    /*line-height: 0.5; /* réduire l’espacement vertical entre les lignes */
 }
 
 /* champ de date agrandi */
@@ -35,6 +34,11 @@ nav .TableauTitrePage > div {
     margin: 0;
     padding: 2px 4px;
     border: 1px dashed aqua;
+}
+
+/* réduire l'espacement vertical pour la section semaine/date */
+nav .TableauTitrePage > div:first-child {
+    line-height: 0.8;
 }
 
 .TexteCentré {
