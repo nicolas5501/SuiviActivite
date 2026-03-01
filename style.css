@@ -12,6 +12,16 @@ body {
     align-items: center;
 }
 
+/* navigation bar compact vertical spacing */
+nav {
+    padding: 5px 0;
+    line-height: 1.2;
+}
+
+nav .TableauTitrePage > div {
+    margin: 0;
+}
+
 .TexteCentré {
     text-align: center;
     justify-content: center;
