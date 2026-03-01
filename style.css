@@ -7,7 +7,7 @@ body {
 
 .TableauTitrePage {
     display: grid;
-    grid-template-rows: max-content;   
+    /*grid-template-rows: max-content;   */
     grid-template-columns: max-content auto max-content;
     align-items: center;
 }
