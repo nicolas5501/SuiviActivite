@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Afficher le numéro de la semaine initiale
     const todayDate = new Date(today);
     const weekNum = getWeekNumber(todayDate);
-    weekNumberSpan.textContent = `Semaine ${weekNum}`;
+    weekNumberSpan.textContent = `Semaine : ${weekNum}`;
     
     // Mettre à jour le numéro de semaine quand la date change
     inputDate.addEventListener('change', function() {
