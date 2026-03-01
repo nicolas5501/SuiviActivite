@@ -12,14 +12,11 @@ body {
     align-items: center;
 }
 
-/* navigation bar compact vertical spacing */
+/* navigation bar compact vertical spacing and border */
 nav {
+    border: 1px solid white;
     padding: 5px 0;
-    line-height: 0.7;
-}
-
-nav .TableauTitrePage > div {
-    margin: 0;
+    line-height: 1.2;
 }
 
 /* larger date input field */
@@ -27,12 +24,6 @@ nav input[type="date"] {
     font-size: 1.2em;
     padding: 4px;
     width: auto;
-}
-
-/* border around nav container */
-nav {
-    border: 1px solid white;
-    padding: 4px 0;
 }
 
 /* border around each field inside nav */
