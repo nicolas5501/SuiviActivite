@@ -1,9 +1,3 @@
-/*
-  style.css
-  Feuille de style pour l'application SuiviActivite Contient les règles de mise en forme principales,
-  notamment pour la barre de navigation, les titres et les bordures des sections.
-*/
-
 body {
     background-color: black; /* Le fond de la page sera noir */
     color: white; /* Le texte de la page sera blanc */
@@ -11,22 +5,8 @@ body {
 
 .TableauTitrePage {
     display: grid;
-    /*grid-template-rows: max-content;   */
     grid-template-columns: max-content auto max-content;
     align-items: center;
-}
-
-/* espacement vertical réduit et bordure de la barre de navigation */
-nav {
-    border: 1px solid white;
-    padding: 5px 0; /* réduire le remplissage vertical */
-}
-
-/* champ de date agrandi */
-nav input[type="date"] {
-    font-size: 1em;
-    padding: 4px;
-    width: auto;
 }
 
 /* bordure autour de chaque zone dans le nav */
@@ -36,6 +16,17 @@ nav .TableauTitrePage > div {
     border: 1px dashed aqua;
 }
 
+/* pour les en-têtes situés dans la barre de titre */
+nav .TableauTitrePage > div > h1,
+nav .TableauTitrePage > div > h3 {
+    margin: 0;
+}
+
+/* listes moins indentées */
+nav .TableauTitrePage > div > ul, ol {
+    padding-left: 1em; /* réduire la marge interne gauche */
+    margin-left: 0;    /* supprimer la marge externe */
+}
 
 .TexteCentré {
     text-align: center;
