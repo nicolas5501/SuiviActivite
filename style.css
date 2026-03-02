@@ -36,11 +36,7 @@ nav .TableauTitrePage > div {
     border: 1px dashed aqua;
 }
 
-/* réduire l'espacement vertical pour la section semaine/date */
 
-nav .TableauTitrePage > div:last-child {
-    line-height: auto;
-}
 .TexteCentré {
     text-align: center;
     justify-content: center;
